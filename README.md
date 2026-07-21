@@ -1,2 +1,2 @@
-# albuquerquezinelibrary
-A zine library and zine distro in the heart of Albuquerque, New Mexico 
+# albuquerque zine library
+A zine library and zine distro housed at Gizmo Arts, Downtown Albuquerque, New Mexico 
