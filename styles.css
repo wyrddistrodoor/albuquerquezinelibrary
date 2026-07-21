@@ -1,4 +1,4 @@
-  :root {
+:root {
     --paper: #FFFFFF;
     --paper-2: #F2F2F2;
     --ink: #191510;
@@ -249,6 +249,41 @@
     transform: rotate(4deg);
   }
 
+  /* SIGNUP */
+  .signup {
+    padding: 20px 0 70px;
+  }
+  .signup h2 {
+    font-size: 26px;
+    max-width: 480px;
+    margin-bottom: 10px;
+  }
+  .signup > .wrap > p {
+    max-width: 460px;
+    font-size: 14px;
+    color: #4a4335;
+    margin-bottom: 22px;
+  }
+  .signup-form {
+    display: flex;
+    gap: 12px;
+    max-width: 440px;
+    flex-wrap: wrap;
+  }
+  .signup-form input[type="email"] {
+    flex: 1;
+    min-width: 200px;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    padding: 12px 14px;
+    border: 2px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .signup-form button {
+    white-space: nowrap;
+  }
+
   /* WHY */
   .why {
     background: var(--ink);
@@ -407,4 +442,5 @@
     .why .wrap { grid-template-columns: 1fr; }
     .info-grid { grid-template-columns: 1fr; }
     .event-row { flex-direction: column; gap: 4px; }
+  }
   }
